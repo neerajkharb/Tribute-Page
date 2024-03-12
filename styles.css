@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body {
+     background-color: #E5E4E2;
+     font-family: Lucida Bright, Lucida Sans;
+     
+     min-height: 100vh;
+   }
+   
+   #main {
+     display: flex;
+     column-gap: 40px;
+     width: 100%;
+     background-image: linear-gradient(rgba(245,245,245,.8),rgba(240,240,240,.8)),url(https://img.freepik.com/free-vector/gray-mandala-patterns-background_1308-36916.jpg?t=st=1709595892~exp=1709599492~hmac=993ad34d2aedf84aa67fa1c9230b78eabfab4fec1f323db5b1eba918e002e2e9&w=740);
+     background-repeat: no-repeat;
+     background-size: cover;  
+     background-position: right 30% bottom 45%;
+     
+   }
+   
+   img {
+     max-width: 100%;
+     display: block;
+     height: auto;
+     margin: 0 auto;
+     min-height: 100%;
+   }
+   
+   #img-div {
+     position: relative;
+   }
+   
+   #caption {
+     position: absolute;
+     font-size: .6rem;
+     left: 40px;
+     bottom: -8px;
+     color: white;
+     text-align: center;
+     
+   }
+   #tribute-info {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 100%;
+     min-width: 60%;
+     
+   }
+   
+   h1 {
+     font-size: 3rem;
+     padding: 20px; 
+     
+   }
+   
+   h3 {
+     font-weight: normal;
+     font-size: 1.4rem;
+     padding: 20px;
+     width: 80%;
+     font-style: italic;
+   }
+   p {
+     font-size: 1.4rem;
+     padding: 20px;
+     width: 80%;
+   }
+   
+   .about-text {
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   .about {
+     text-align: justify;
+     min-height: 400px;
+     padding: 100px 0;
+     
+   }
+   
+   .speech {
+     position: relative;
+     text-align: center;
+     background-image: linear-gradient(rgba(245,245,245,.8),rgba(240,240,240,.8)),url(https://img.freepik.com/free-vector/gray-mandala-patterns-background_1308-36916.jpg?t=st=1709595892~exp=1709599492~hmac=993ad34d2aedf84aa67fa1c9230b78eabfab4fec1f323db5b1eba918e002e2e9&w=740);
+     background-repeat: no-repeat;
+     background-size: cover;  
+     background-position: right 30% bottom 45%;
+     padding-bottom: 60px;
+   }
+   
+   .img1-div {
+     position: relative;
+     width: 60%;
+     display: inline-block;
+   }
+   
+   #image1 {
+     justify-content: center;
+     padding-top: 10px;
+     
+   }
+   
+   #img-caption1 {
+     position: absolute;
+     left: 80px;
+     bottom: -8px;
+     font-size: .6rem;
+     color: white;
+     text-align: center;
+   }
+   
+   h2 {
+     text-align: center;
+     padding: 60px;
+   }
+   
+   .description {
+     text-align: justify;
+     width: 80%;
+     margin:0 auto;
+   }
+   
+   .description1 {
+     text-align: center;
+     width: 80%;
+     margin:0 auto;
+   }
+   
+   .description2 {
+     font: italic 1.2rem "Fira Sans", serif;
+     text-align: justify;
+     width: 80%;
+     margin:0 auto;
+   }
+   
+   .last-div {
+     padding: 100px 0;
+   }
+   
+   .passing {
+     text-align: justify;
+     margin:0 auto;
+   }
+   
+   .footer {
+     background-color: #708090;
+     display: flex;
+     flex-direction: column;
+     
+   }
+   
+   h4 {
+     margin: 0 auto;
+     padding-top: 40px;
+     font-size: 1.3rem; 
+   }
+   
+   .source {
+     font-size: .6rem;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     padding-bottom: 20px;
+   }
+   
+   @media (max-width: 600px) {
+   
+     h1 {
+     font-size: 2rem;
+     margin: 0 auto;
+     padding: 0 60px;
+     
+   }
+   
+   h3 {
+     margin: 0 auto;
+     font-size: 1.2rem;
+   }
+   
+   p {
+     font-size: 1rem;
+   }
+   
+   #main {
+     display: block;
+     max-width: 100%;
+     
+   }
+   
+   #tribute-info {
+     padding: 80px 0;
+   }
+   
+   }
+   
